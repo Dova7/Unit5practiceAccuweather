@@ -1,4 +1,4 @@
 {
-  "url": "https://www.accuweather.com",
+  "url": "https://the-internet.herokuapp.com/",
   "fileExistsTimeout": 1000
 }

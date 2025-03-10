@@ -13,7 +13,7 @@ namespace Unit5practiceAccuweather.Framework.Hooks
 
         public Hooks()
         {
-            string browserName = Environment.GetEnvironmentVariable("BROWSER") ?? "chrome";
+            string browserName = Environment.GetEnvironmentVariable("browserName") ?? "chrome";
             Environment.SetEnvironmentVariable("browserName", browserName);
 
         }
